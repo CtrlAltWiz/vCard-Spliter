@@ -25,7 +25,7 @@ def split_vcf_file(vcf_path, output_folder):
 # Ask the user for the VCF file location
 vcf_path = input("Enter the full path to the .vcf file: ")
 
-# Set the output folder in the C: drive
+# Set the output folder in the C: drive, this can me modified as long as you have admin access to the destination folder.
 output_folder = 'C:\\Split_VCF_Contacts'
 
 # Call the function to split the VCF file
